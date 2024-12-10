@@ -1,6 +1,5 @@
 
  /********************/
- //342854965 nickolai korgan
  /********************/
 import java.util.Scanner;
 

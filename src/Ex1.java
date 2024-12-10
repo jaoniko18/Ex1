@@ -2,7 +2,6 @@ import java.util.Locale;
 import java.util.Scanner;
 
 /********************/
-//342854965 nickolai korgan
 /********************/
 
 //class that has all functionalities
@@ -52,7 +51,7 @@ public class Ex1 {
                 String reversed = new StringBuilder(a1).reverse().toString();
                 for(int i=0;i<reversed.length();i++) {
                     ch = reversed.charAt(i);
-                    if('0' <= ch && ch <= '9') {   //workg
+                    if('0' <= ch && ch <= '9') {
                         temp = ch - '0';
                         tempNumber = tempNumber + (Math.pow(base,i)*temp);
                         ans = (int) tempNumber;
@@ -206,7 +205,6 @@ public class Ex1 {
     //checking if 2 string have the same values
     public static boolean equals(String n1, String n2) {
         boolean ans = true;
-        // add your code here
         if(number2Int(n1)!=number2Int(n2)) {
             return false;
         }

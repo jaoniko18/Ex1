@@ -151,7 +151,7 @@ public class Ex1 {
         int tempNum = num;
         int temp = 0;
         String str = "" + num;
-        // main algorithm of representing number in another basis
+        // main algorithm of representing number in another basis //
         if(num < 0 || base < 2 || base > 16 ) {
             return ans;
         } else {

@@ -1,6 +1,10 @@
 import java.util.Locale;
 import java.util.Scanner;
 
+/********************/
+//342854965 nickolai korgan
+/********************/
+
 //class that has all functionalities
 public class Ex1 {
 
@@ -44,11 +48,11 @@ public class Ex1 {
             }
             // here is the main algorithm for converting string
             base = Integer.parseInt(a2);
-            if(isNumeral(a1, base) && isNumeral(a2, base+1)) {
+            if(isNumeral(a1, base) && isNumeral(a2, base+1)) { //checking if both base and number are numbers
                 String reversed = new StringBuilder(a1).reverse().toString();
                 for(int i=0;i<reversed.length();i++) {
                     ch = reversed.charAt(i);
-                    if('0' <= ch && ch <= '9') {
+                    if('0' <= ch && ch <= '9') {   //workg
                         temp = ch - '0';
                         tempNumber = tempNumber + (Math.pow(base,i)*temp);
                         ans = (int) tempNumber;
